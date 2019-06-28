@@ -1,0 +1,81 @@
+*{
+    list-style: none;
+}
+div.header nav {
+    background: indigo;
+    font-size: 20px;
+    color: white;
+    font-family:sans-serif;
+    padding: 16px 0px;
+    height: 62px;
+}
+.user_icon{
+    padding-right: 32px;
+}
+
+div.header nav ul.left_list {
+    float: left;
+}
+
+div.header nav ul.right_list{
+    float: right;
+    right: 0px;
+}
+
+div.header nav ul li {
+    display: inline;
+    padding: 0px 16px;
+}
+
+div#main_sidebar {
+    height: 100%;
+    background: black;
+}
+
+div#dashboard_sidebar {
+    position: fixed;
+    padding-top: 2em;
+    height: 100%;
+    background: #16151d;
+    color: white;
+    width: 270px;
+}
+div#dashboard_sidebar ul.sidebar_list {
+    padding: 0px !important;
+}
+div#dashboard_sidebar ul.sidebar_list li {
+    padding: 14px 32px;
+    font-size: 18px;
+    opacity: 0.8;
+    cursor: pointer;
+    transition: 300ms ease-in
+}
+
+
+div#dashboard_sidebar ul.sidebar_list li:active {
+    opacity: 1;
+    background: rgb(45, 0, 77);
+    transition: 300ms ease-in;
+    padding-left: 64px
+}
+
+div#dashboard_sidebar ul.sidebar_list li:hover {
+    opacity: 1;
+    background: rgba(76, 0, 130, 0.399);
+    transition: 300ms ease-in;
+    padding-left: 48px;
+}
+div#dashboard_sidebar ul.sidebar_list li i {
+    padding-right: 16px;
+}
+#main_page_container h1,h3 {
+    font-weight: 400 !important;
+}
+#main_page_container button {
+    display: block;
+    margin: auto;   
+}
+
+#main_page_container img {
+    padding: 64px 0px;
+}
